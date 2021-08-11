@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API do Covid-19</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
 
 <body>
@@ -18,31 +19,30 @@
         </div>
         <div class="paises">
             <ul>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
-                <li>BRASIL</li>
+                <li onclick="apiXhr('india')" id="india">India</li>
+                <li onclick="apiXhr('armenia')" id="armenia">Armenia</li>
+                <li onclick="apiXhr('bolivia')" id="bolivia">Bolivia</li>
+                <li onclick="apiXhr('brazil')" id="brazil">Brazil</li>
+                <li onclick="apiXhr('ecuador')" id="ecuador">Ecuador</li>
+                <li onclick="apiXhr('canada')" id="canada">Canada</li>
+                <li onclick="apiXhr('germany')" id="germany">Germany</li>
+                <li onclick="apiXhr('venezuela')" id="venezuela">Venezuela</li>
+                <li onclick="apiFetch('romania')" id="romania">Romania</li>
+                <li onclick="apiFetch('colombia')" id="colombia">Colombia</li>
+                <li onclick="apiFetch('italy')" id="italy">Italy</li>
+                <li onclick="apiFetch('spain')" id="spain">Spain</li>
+                <li onclick="apiFetch('united-states')" id="united-states">USA</li>
+                <li onclick="apiFetch('finland')" id="finland">Finland</li>
+                <li onclick="apiFetch('japan')" id="japan">Japan</li>
+                <li onclick="apiFetch('belgium')" id="belgium">Belgium</li>
+                <li onclick="apiJquery('mexico')" id="mexico">Mexico</li>
+                <li onclick="apiJquery('egypt')" id="egypt">Egypt</li>
+                <li onclick="apiJquery('france')" id="france">France</li>
+                <li onclick="apiJquery('portugal')" id="portugal">Portugal</li>
+                <li onclick="apiJquery('paraguay')" id="paraguay">Paraguay</li>
+                <li onclick="apiJquery('argentina')" id="argentina">Argentina</li>
+                <li onclick="apiJquery('china')" id="china">China</li>
+                <li onclick="apiJquery('uruguay')" id="uruguay">Uruguay</li>
             </ul>
         </div>
         <div class="info">
@@ -54,14 +54,83 @@
                 <h3>Mortes</h3>
                 <p></p>
             </div>
-            <div class="info-box" id="cured">
-                <h3>Curados</h3>
-                <p></p>
-            </div>
         </div>
     </div>
 
     <script src="script.js"></script>
+
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
+    <div class="circle-container">
+        <div class="circle"></div>
+    </div>
 </body>
 
 </html>
