@@ -17,6 +17,6 @@
 
 ### Link para visualizar o projeto:
 
-[Covid Api]()
+[Covid Api](https://covidapitavano.netlify.app/)
 
 ![Imagem](https://github.com/guitavano/covidApi/blob/main/imagens/print.PNG)
